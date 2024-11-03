@@ -12,17 +12,15 @@
 
         static double Sqrt(double x)
         {
-            double num = x;
-            double oldx;
+            double oldx = x;
 
             do
             {
-                oldx = num;
-                num = (oldx + x/ oldx)/2;
+                oldx = (oldx + x/ oldx)/2;
             }
-            while (Math.Abs(oldx - num)>0.1);
+            while (Math.Abs(oldx - (oldx + x / oldx) / 2) > 0.1);
 
-            return num;
+            return oldx;
         }
 
         static void Conclusion(double x)

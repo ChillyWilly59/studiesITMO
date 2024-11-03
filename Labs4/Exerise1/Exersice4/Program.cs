@@ -24,7 +24,7 @@ class Exercise4
 
             try
             {
-                double area = Operation.Geron(a, b, c);
+                double area = Operation.TriangleSqr(a, b, c);
                 Console.WriteLine($"Площадь треугольника: {area}");
             }
             catch (ArgumentException ex)
@@ -42,7 +42,7 @@ class Exercise4
 
 public class Operation
 {
-    public static double Geron(double x, double y, double z)
+    public static double TriangleSqr(double x, double y, double z)
     {
         double Sqrt;
 

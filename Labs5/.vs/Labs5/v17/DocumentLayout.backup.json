@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{C11DD3F4-EE8B-42CC-9332-924DD08E0207}|Exercise2\\Exercise2.csproj|solutionrelative:exercise2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F31432C-7BFF-4956-86BE-CA0B927C64EE}|Labs5\\Labs5.csproj|c:\\users\\\u0438\u0432\u0430\u043D\\desktop\\progectc#\\studiesitmo1\\labs5\\labs5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F31432C-7BFF-4956-86BE-CA0B927C64EE}|Labs5\\Labs5.csproj|solutionrelative:labs5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F31432C-7BFF-4956-86BE-CA0B927C64EE}|Labs5\\Exercise1.csproj|c:\\users\\\u0438\u0432\u0430\u043D\\desktop\\progectc#\\studiesitmo1\\labs5\\labs5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F31432C-7BFF-4956-86BE-CA0B927C64EE}|Labs5\\Exercise1.csproj|solutionrelative:labs5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,6 +33,14 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
@@ -40,7 +48,7 @@
               "RelativeDocumentMoniker": "Exircise3\\Program.cs",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\Labs5\\Exircise3\\Program.cs",
               "RelativeToolTip": "Exircise3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T10:44:02.674Z",
               "EditorCaption": ""
@@ -55,8 +63,7 @@
               "RelativeToolTip": "Exercise2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T10:43:24.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T10:43:24.941Z"
             },
             {
               "$type": "Document",
@@ -68,8 +75,7 @@
               "RelativeToolTip": "Labs5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T10:42:23.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T10:42:23.288Z"
             }
           ]
         }

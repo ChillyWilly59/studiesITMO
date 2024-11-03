@@ -40,9 +40,24 @@ public class Program
         Console.Write("Введите коэффициенты a, b, c через пробел: ");
         string[] coefficientsInput = Console.ReadLine().Split();
 
-        double a = double.Parse(coefficientsInput[0]);
-        double b = double.Parse(coefficientsInput[1]);
-        double c = double.Parse(coefficientsInput[2]);
+        if (coefficientsInput.Length != 3)
+        {
+            Console.WriteLine("Пожалуйста, введите ровно три коэффициента.");
+            return;
+        }
+
+        double a, b, c;
+        try
+        {
+            a = double.Parse(coefficientsInput[0]);
+            b = double.Parse(coefficientsInput[1]);
+            c = double.Parse(coefficientsInput[2]);
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Пожалуйста, убедитесь, что все коэффициенты являются числами.");
+            return;
+        }
 
         double x1, x2;
 
@@ -52,7 +67,7 @@ public class Program
             switch (result)
             {
                 case 1:
-                    Console.WriteLine($"Корни уравнения с коэффициентами a = {a}, b = {b}, c = {c} один: x1 = {x1}, x2 = {x2}");
+                    Console.WriteLine($"Корни уравнения с коэффициентами a = {a}, b = {b}, c = {c} различны: x1 = {x1}, x2 = {x2}");
                     break;
                 case 0:
                     Console.WriteLine($"Корни уравнения с коэффициентами a = {a}, b = {b}, c = {c} равны: x1 = x2 = {x1}");
@@ -67,4 +82,5 @@ public class Program
             Console.WriteLine(ex.Message);
         }
     }
+
 }
