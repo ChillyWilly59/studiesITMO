@@ -1,0 +1,14 @@
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\bin\Debug\net8.0\Labs3.exe
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\bin\Debug\net8.0\Labs3.deps.json
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\bin\Debug\net8.0\Labs3.runtimeconfig.json
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\bin\Debug\net8.0\Labs3.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\bin\Debug\net8.0\Labs3.pdb
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.AssemblyInfoInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.AssemblyInfo.cs
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\refint\Labs3.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.pdb
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\Labs3.genruntimeconfig.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs3\Labs3\obj\Debug\net8.0\ref\Labs3.dll

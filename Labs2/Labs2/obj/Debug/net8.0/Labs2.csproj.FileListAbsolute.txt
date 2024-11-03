@@ -1,0 +1,14 @@
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\bin\Debug\net8.0\Labs2.exe
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\bin\Debug\net8.0\Labs2.deps.json
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\bin\Debug\net8.0\Labs2.runtimeconfig.json
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\bin\Debug\net8.0\Labs2.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\bin\Debug\net8.0\Labs2.pdb
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.AssemblyInfoInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.AssemblyInfo.cs
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\refint\Labs2.dll
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.pdb
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\Labs2.genruntimeconfig.cache
+C:\Users\Иван\Desktop\ProgectC#\Labs2\Labs2\obj\Debug\net8.0\ref\Labs2.dll
