@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Exircise3")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Algoritm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d780ccf073fec36fa351d79aeb163337d51fc04")]
-[assembly: System.Reflection.AssemblyProductAttribute("Exircise3")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Exircise3")]
+[assembly: System.Reflection.AssemblyProductAttribute("Algoritm")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Algoritm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
