@@ -1,0 +1,15 @@
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\bin\Debug\net8.0\Exircise3.exe
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\bin\Debug\net8.0\Exircise3.deps.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\bin\Debug\net8.0\Exircise3.runtimeconfig.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\bin\Debug\net8.0\Exircise3.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\bin\Debug\net8.0\Exircise3.pdb
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.AssemblyInfoInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.AssemblyInfo.cs
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.sourcelink.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\refint\Exircise3.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.pdb
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\Exircise3.genruntimeconfig.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\Labs5\Exircise3\obj\Debug\net8.0\ref\Exircise3.dll
