@@ -1,0 +1,15 @@
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\bin\Debug\net8.0\Labs9.exe
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\bin\Debug\net8.0\Labs9.deps.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\bin\Debug\net8.0\Labs9.runtimeconfig.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\bin\Debug\net8.0\Labs9.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\bin\Debug\net8.0\Labs9.pdb
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.AssemblyInfoInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.AssemblyInfo.cs
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.sourcelink.json
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\refint\Labs9.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.pdb
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\Labs9.genruntimeconfig.cache
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\ConsoleAppC#\Labs9\Labs9\obj\Debug\net8.0\ref\Labs9.dll
