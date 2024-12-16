@@ -1,0 +1,27 @@
+﻿<Window x:Class="CalculatorApp.EquationDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Введите коэффициенты уравнения" Height="250" Width="300"
+        Background="Aqua"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Коэффициент a:" VerticalAlignment="Center"/>
+        <TextBox x:Name="AInput" Grid.Row="0" Margin="120,0" Width="150" />
+
+        <TextBlock Grid.Row="1" Text="Коэффициент b:" VerticalAlignment="Center"/>
+        <TextBox x:Name="BInput" Grid.Row="1" Margin="120,0" Width="150" />
+
+        <TextBlock Grid.Row="2" Text="Коэффициент c:" VerticalAlignment="Center"/>
+        <TextBox x:Name="CInput" Grid.Row="2" Margin="120,0" Width="150" />
+
+        <Button Grid.Row="3" Content="Решить" HorizontalAlignment="Right" Width="80" Margin="0,10" Click="SolveButton_Click"/>
+    </Grid>
+</Window>
