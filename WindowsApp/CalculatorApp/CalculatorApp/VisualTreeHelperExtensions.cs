@@ -1,25 +1,28 @@
 ﻿using System.Windows;
 using System.Windows.Media;
 
-public static class VisualTreeHelperExtensions
+namespace CalculatorApp
 {
-    public static IEnumerable<T> FindVisualChildren<T>(DependencyObject parent) where T : DependencyObject
+    public static class VisualTreeHelperExtensions
     {
-        if (parent == null) yield break;
-
-        for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
+        public static IEnumerable<T> FindVisualChildren<T>(DependencyObject parent) where T : DependencyObject
         {
-            var child = VisualTreeHelper.GetChild(parent, i);
-            if (child is T)
-            {
-                yield return (T)child;
-            }
+            if (parent == null) yield break;
 
-            foreach (var descendant in FindVisualChildren<T>(child))
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
             {
-                yield return descendant;
+                var child = VisualTreeHelper.GetChild(parent, i);
+                if (child is T)
+                {
+                    yield return (T)child;
+                }
+
+                foreach (var descendant in FindVisualChildren<T>(child))
+                {
+                    yield return descendant;
+                }
             }
         }
     }
-}
 
+}

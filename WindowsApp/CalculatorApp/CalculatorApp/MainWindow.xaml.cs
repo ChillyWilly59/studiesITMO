@@ -6,9 +6,10 @@ namespace CalculatorApp
 {
     public partial class MainWindow : Window
     {
-        private string _input = string.Empty; // Текущий ввод
-        private string _operator = string.Empty; // Последний оператор
-        private double _result = 0; // Результат вычислений
+        private string _input = string.Empty;
+        private string _operator = string.Empty;
+        private double _result = 0;
+        private bool IsEngineeringMode = false;
 
         public MainWindow()
         {
@@ -25,7 +26,7 @@ namespace CalculatorApp
                 _input += value;
                 Display.Text = _input;
             }
-            else 
+            else
             {
                 if (_operator != string.Empty && _input != string.Empty)
                 {
@@ -83,18 +84,124 @@ namespace CalculatorApp
                         break;
                 }
 
-                _input = string.Empty; 
+                _input = string.Empty;
             }
             catch (Exception ex)
             {
-                Display.Text = "Ошибка: " + ex.Message;  
+                Display.Text = "Ошибка: " + ex.Message;
                 _input = string.Empty;
                 _operator = string.Empty;
                 _result = 0;
             }
         }
+        private void SquareButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(_input, out double number))
+            {
+                _result = Math.Pow(number, 2);
+                Display.Text = _result.ToString();
+            }
+        }
 
-        private void Window_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void SqrtButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(_input, out double number))
+            {
+                _result = Math.Sqrt(number);
+                Display.Text = _result.ToString();
+            }
+        }
+
+        private void PowerButton_Click(object sender, RoutedEventArgs e)
+        {
+            double secondOperand = double.TryParse(_input, out double baseNum) ? double.Parse(_input) : 0;
+            _result = Math.Pow(baseNum, secondOperand);
+            Display.Text = _result.ToString();
+        }
+
+        private void InverseButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(_input, out double number) && number != 0)
+            {
+                _result = 1 / number;
+                Display.Text = _result.ToString();
+            }
+            else
+            {
+                Display.Text = "Ошибка: Деление на ноль!";
+            }
+        }
+
+        private void FactorialButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (int.TryParse(_input, out int number) && number >= 0)
+            {
+                _result = Factorial(number);
+                Display.Text = _result.ToString();
+            }
+            else
+            {
+                Display.Text = "Ошибка: Некорректный ввод!";
+            }
+        }
+
+        private double Factorial(int n)
+        {
+            if (n == 0) return 1;
+            return n * Factorial(n - 1);
+        }
+
+        private void CbrtButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(_input, out double number))
+            {
+                _result = Math.Cbrt(number);
+                Display.Text = _result.ToString();
+            }
+        }
+
+        private void EquationButton_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new EquationDialog();
+            if (dialog.ShowDialog() == true)
+            {
+                double a = dialog.A;
+                double b = dialog.B;
+                double c = dialog.C;
+
+                double discriminant = b * b - 4 * a * c;
+
+                if (discriminant > 0)
+                {
+                    double x1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
+                    double x2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
+                    Display.Text = $"x1 = {x1}, x2 = {x2}";
+                }
+                else if (discriminant == 0)
+                {
+                    double x = -b / (2 * a);
+                    Display.Text = $"x = {x}";
+                }
+                else
+                {
+                    Display.Text = "Нет корней";
+                }
+            }
+        }
+
+        private void ToggleEngineeringMode(object sender, RoutedEventArgs e)
+        {
+            IsEngineeringMode = !IsEngineeringMode;
+
+            foreach (var button in VisualTreeHelperExtensions.FindVisualChildren<System.Windows.Controls.Button>(this))
+            {
+                if (button.ToolTip != null && button.ToolTip.ToString() != "Переключить на инженерный режим" && button.ToolTip.ToString() != "Переключить на стандартный режим")
+                {
+                    button.Visibility = IsEngineeringMode ? Visibility.Visible : Visibility.Hidden;
+                }
+            }
+        }
+        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             string key = e.Key.ToString();
 
@@ -109,11 +216,11 @@ namespace CalculatorApp
             {
                 ProcessOperator("+");
             }
-            else if (e.Key == Key.Subtract) 
+            else if (e.Key == Key.Subtract)
             {
                 ProcessOperator("-");
             }
-            else if (e.Key == Key.Multiply) 
+            else if (e.Key == Key.Multiply)
             {
                 ProcessOperator("*");
             }
@@ -159,5 +266,7 @@ namespace CalculatorApp
             _input = string.Empty;
         }
 
+
     }
+
 }
