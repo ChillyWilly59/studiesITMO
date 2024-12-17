@@ -18,3 +18,5 @@ C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\Calcul
 C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.pdb
 C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.genruntimeconfig.cache
 C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\CalculatorApp\obj\Debug\net8.0-windows\ref\CalculatorApp.dll
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\CalculatorApp\obj\Debug\net8.0-windows\EquationDialog.baml
+C:\Users\Иван\Desktop\ProgectC#\studiesITMO1\WindowsApp\CalculatorApp\CalculatorApp\obj\Debug\net8.0-windows\EquationDialog.g.cs
