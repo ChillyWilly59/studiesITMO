@@ -2,11 +2,12 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Калькулятор" Height="500" Width="350"
-        PreviewKeyDown="Window_PreviewKeyDown"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         Cursor="Hand"
         Background="Salmon">
+        <!--PreviewKeyDown="Window_PreviewKeyDown"-->
+        
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -16,7 +17,20 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Name="Display" FontSize="24" Margin="10" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Right"/>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Выход" Click="Exit_Click" />
+            </MenuItem>
+            <MenuItem Header="Вид">
+                <MenuItem x:Name="MenuItemToggleMode" Header="Инженерный режим" Click="ToggleEngineeringMode" />
+                
+            </MenuItem>
+            <MenuItem Header="Справка">
+                <MenuItem Header="О программе" Click="About_Click" />
+            </MenuItem>
+        </Menu>
+
+        <TextBox x:Name="Display" FontSize="24" Margin="20" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Right"/>
 
         <Grid Grid.Row="1" Margin="10">
             <Grid.RowDefinitions>
@@ -53,15 +67,15 @@
             <Button Grid.Row="3" Grid.Column="2" Content="=" Click="Button_Equals" />
             <Button Grid.Row="3" Grid.Column="3" Content="+" Click="Button_Click" />
 
-            <Button x:Name="BtnSquare" Grid.Row="0" Grid.Column="4" Content="x²" Click="SquareButton_Click" ToolTip="Возведение в квадрат" Visibility="Collapsed" />
-            <Button x:Name="BtnSqrt" Grid.Row="1" Grid.Column="4" Content="√x" Click="SqrtButton_Click" ToolTip="Квадратный корень" Visibility="Collapsed" />
-            <Button x:Name="BtnPower" Grid.Row="2" Grid.Column="4" Content="x^y" Click="PowerButton_Click" ToolTip="Возведение в степень" Visibility="Collapsed" />
-            <Button x:Name="BtnInverse" Grid.Row="3" Grid.Column="4" Content="1/x" Click="InverseButton_Click" ToolTip="Обратное значение" Visibility="Collapsed" />
-            <Button x:Name="BtnFactorial" Grid.Row="4" Grid.Column="0" Content="x!" Click="FactorialButton_Click" ToolTip="Факториал" Visibility="Collapsed" />
-            <Button x:Name="BtnCbrt" Grid.Row="4" Grid.Column="1" Content="∛x" Click="CbrtButton_Click" ToolTip="Кубический корень" Visibility="Collapsed" />
-            <Button x:Name="BtnEquation" Grid.Row="4" Grid.Column="2" Content="Уравнение" Click="EquationButton_Click" ToolTip="Решение квадратного уравнения" Visibility="Collapsed" />
-
-            <Button Grid.Row="4" Grid.Column="3" Content="Инж." Click="ToggleEngineeringMode" ToolTip="Переключить на инженерный режим" />
-        </Grid>
+            <Button x:Name="BtnSquare" Grid.Row="0" Grid.Column="4" Content="x²" Tag="Engineering" Click="SquareButton_Click" ToolTip="Возведение в квадрат" Visibility="Collapsed" />
+            <Button x:Name="BtnSqrt" Grid.Row="1" Grid.Column="4" Content="√x" Tag="Engineering" Click="SqrtButton_Click" ToolTip="Квадратный корень" Visibility="Collapsed" />
+            <Button x:Name="BtnPower" Grid.Row="2" Grid.Column="4" Content="x^y" Tag="Engineering" Click="PowerButton_Click" ToolTip="Возведение в степень" Visibility="Collapsed" />
+            <Button x:Name="BtnInverse" Grid.Row="3" Grid.Column="4" Content="1/x" Tag="Engineering" Click="InverseButton_Click" ToolTip="Обратное значение" Visibility="Collapsed" />
+            <Button x:Name="BtnFactorial" Grid.Row="4" Grid.Column="0" Content="x!" Tag="Engineering" Click="FactorialButton_Click" ToolTip="Факториал" Visibility="Collapsed" />
+            <Button x:Name="BtnCbrt" Grid.Row="4" Grid.Column="1" Content="∛x" Tag="Engineering" Click="CbrtButton_Click" ToolTip="Кубический корень" Visibility="Collapsed" />
+            <Button x:Name="BtnEquation" Grid.Row="4" Grid.Column="2" Content="Уравнение" Tag="Engineering" Click="EquationButton_Click" ToolTip="Решение квадратного уравнения" Visibility="Collapsed" />
+            
+            <Button x:Name="ToggleModeButton" Content="Инженерный режим" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="4" Click="ToggleEngineeringMode" ToolTip="Переключить режим калькулятора" />
+</Grid>
     </Grid>
 </Window>

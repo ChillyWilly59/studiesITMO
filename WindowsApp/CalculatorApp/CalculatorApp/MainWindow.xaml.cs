@@ -15,7 +15,10 @@ namespace CalculatorApp
         {
             InitializeComponent();
         }
-
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as System.Windows.Controls.Button;
@@ -144,7 +147,6 @@ namespace CalculatorApp
                 Display.Text = "Ошибка: Некорректный ввод!";
             }
         }
-
         private double Factorial(int n)
         {
             if (n == 0) return 1;
@@ -193,80 +195,86 @@ namespace CalculatorApp
         {
             IsEngineeringMode = !IsEngineeringMode;
 
+            // Обновляем видимость кнопок для инженерного режима
             foreach (var button in VisualTreeHelperExtensions.FindVisualChildren<System.Windows.Controls.Button>(this))
             {
-                if (button.ToolTip != null && button.ToolTip.ToString() != "Переключить на инженерный режим" && button.ToolTip.ToString() != "Переключить на стандартный режим")
+                if (button.Tag != null && button.Tag.ToString() == "Engineering")
                 {
                     button.Visibility = IsEngineeringMode ? Visibility.Visible : Visibility.Hidden;
                 }
             }
+
+            // Обновляем заголовок меню на противоположный
+            MenuItemToggleMode.Header = IsEngineeringMode ? "Стандартный режим" : "Инженерный режим";
         }
-        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+
+        private void About_Click(object sender, RoutedEventArgs e)
         {
-            string key = e.Key.ToString();
-
-            if ((key.StartsWith("D") && key.Length == 2 && char.IsDigit(key[1])) ||
-                (key.StartsWith("NumPad") && key.Length == 7 && char.IsDigit(key[6])))
-            {
-                string number = key.StartsWith("D") ? key[1].ToString() : key[6].ToString();
-                _input += number;
-                Display.Text = _input;
-            }
-            else if (e.Key == Key.Add)
-            {
-                ProcessOperator("+");
-            }
-            else if (e.Key == Key.Subtract)
-            {
-                ProcessOperator("-");
-            }
-            else if (e.Key == Key.Multiply)
-            {
-                ProcessOperator("*");
-            }
-            else if (e.Key == Key.Divide)
-            {
-                ProcessOperator("/");
-            }
-            else if (e.Key == Key.Return || e.Key == Key.Enter)
-            {
-                Button_Equals(null, null);
-            }
-            else if (e.Key == Key.Back)
-            {
-                if (_input.Length > 0)
-                {
-                    _input = _input.Substring(0, _input.Length - 1);
-                    Display.Text = _input.Length > 0 ? _input : "0";
-                }
-            }
-            else if (e.Key == Key.Escape)
-            {
-                Button_Clear(null, null);
-            }
-            else if (e.Key == Key.Decimal || e.Key == Key.OemPeriod || e.Key == Key.OemComma)
-            {
-                if (!_input.Contains(",") && !_input.Contains("."))
-                {
-                    string separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
-                    _input += separator;
-                    Display.Text = _input;
-                }
-            }
+            MessageBox.Show("Калькулятор v1.0\nРазработчик: Иван", "О программе", MessageBoxButton.OK, MessageBoxImage.Information);
         }
-        private void ProcessOperator(string operatorSymbol)
-        {
-            if (_operator != string.Empty && _input != string.Empty)
-            {
-                Calculate();
-            }
+        //private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        //{
+        //    string key = e.Key.ToString();
 
-            _operator = operatorSymbol;
-            _result = double.TryParse(_input, out _) ? double.Parse(_input) : _result;
-            _input = string.Empty;
-        }
+        //    if ((key.StartsWith("D") && key.Length == 2 && char.IsDigit(key[1])) ||
+        //        (key.StartsWith("NumPad") && key.Length == 7 && char.IsDigit(key[6])))
+        //    {
+        //        string number = key.StartsWith("D") ? key[1].ToString() : key[6].ToString();
+        //        _input += number;
+        //        Display.Text = _input;
+        //    }
+        //    else if (e.Key == Key.Add)
+        //    {
+        //        ProcessOperator("+");
+        //    }
+        //    else if (e.Key == Key.Subtract)
+        //    {
+        //        ProcessOperator("-");
+        //    }
+        //    else if (e.Key == Key.Multiply)
+        //    {
+        //        ProcessOperator("*");
+        //    }
+        //    else if (e.Key == Key.Divide)
+        //    {
+        //        ProcessOperator("/");
+        //    }
+        //    else if (e.Key == Key.Return || e.Key == Key.Enter)
+        //    {
+        //        Button_Equals(null, null);
+        //    }
+        //    else if (e.Key == Key.Back)
+        //    {
+        //        if (_input.Length > 0)
+        //        {
+        //            _input = _input.Substring(0, _input.Length - 1);
+        //            Display.Text = _input.Length > 0 ? _input : "0";
+        //        }
+        //    }
+        //    else if (e.Key == Key.Escape)
+        //    {
+        //        Button_Clear(null, null);
+        //    }
+        //    else if (e.Key == Key.Decimal || e.Key == Key.OemPeriod || e.Key == Key.OemComma)
+        //    {
+        //        if (!_input.Contains(",") && !_input.Contains("."))
+        //        {
+        //            string separator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+        //            _input += separator;
+        //            Display.Text = _input;
+        //        }
+        //    }
+        //}
+        //private void ProcessOperator(string operatorSymbol)
+        //{
+        //    if (_operator != string.Empty && _input != string.Empty)
+        //    {
+        //        Calculate();
+        //    }
 
-
+        //    _operator = operatorSymbol;
+        //    _result = double.TryParse(_input, out _) ? double.Parse(_input) : _result;
+        //    _input = string.Empty;
+        //}
     }
-
 }
