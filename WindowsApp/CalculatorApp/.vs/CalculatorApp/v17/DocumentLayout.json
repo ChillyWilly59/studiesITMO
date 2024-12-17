@@ -25,19 +25,6 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VisualTreeHelperExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\VisualTreeHelperExtensions.cs",
-              "RelativeDocumentMoniker": "CalculatorApp\\VisualTreeHelperExtensions.cs",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\VisualTreeHelperExtensions.cs",
-              "RelativeToolTip": "CalculatorApp\\VisualTreeHelperExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T16:21:58.313Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
@@ -55,12 +42,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisualTreeHelperExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\VisualTreeHelperExtensions.cs",
+              "RelativeDocumentMoniker": "CalculatorApp\\VisualTreeHelperExtensions.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\VisualTreeHelperExtensions.cs",
+              "RelativeToolTip": "CalculatorApp\\VisualTreeHelperExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:21:58.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CalculatorApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml*",
-              "RelativeToolTip": "CalculatorApp\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml",
+              "RelativeToolTip": "CalculatorApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-16T17:02:12.289Z",
               "EditorCaption": ""
@@ -71,9 +71,9 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CalculatorApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "CalculatorApp\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAwMYAAABvAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO1\\WindowsApp\\CalculatorApp\\CalculatorApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CalculatorApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T17:01:37.158Z",
               "EditorCaption": ""
