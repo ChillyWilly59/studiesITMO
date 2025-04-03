@@ -38,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InputData.cshtml",
-              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
-              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\InputData.cshtml",
-              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
-              "RelativeToolTip": "WebMVCR1\\Views\\Home\\InputData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T17:51:31.566Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -87,9 +74,22 @@
               "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\ListPerson.cshtml",
               "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\ListPerson.cshtml",
               "RelativeToolTip": "WebMVCR1\\Views\\Home\\ListPerson.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T18:00:22.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputData.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "RelativeToolTip": "WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T17:51:31.566Z",
               "EditorCaption": ""
             },
             {

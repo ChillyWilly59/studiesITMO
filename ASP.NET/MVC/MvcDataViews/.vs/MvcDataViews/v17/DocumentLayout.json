@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\person\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\person\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\person\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\person\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\person\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\person\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvcdataviews\\mvcdataviews\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69707AC1-6ED2-4227-BF30-3B092663422C}|MvcDataViews\\MvcDataViews.csproj|solutionrelative:mvcdataviews\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Person\\Details.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Details.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Person\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:55:24.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Person\\Edit.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Edit.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Person\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:59:06.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "MvcDataViews\\Controllers\\PersonController.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "MvcDataViews\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvzAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:48:24.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:59:13.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Person\\Delete.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Delete.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Person\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:56:22.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Person\\Create.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Create.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Person\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:52:32.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcDataViews\\Views\\Person\\Index.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Views\\Person\\Index.cshtml",
+              "RelativeToolTip": "MvcDataViews\\Views\\Person\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:50:13.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "MvcDataViews\\Models\\Person.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcDataViews\\MvcDataViews\\Models\\Person.cs",
+              "RelativeToolTip": "MvcDataViews\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:47:07.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
