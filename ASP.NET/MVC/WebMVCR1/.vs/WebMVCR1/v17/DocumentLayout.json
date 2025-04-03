@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\views\\home\\listperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\views\\home\\listperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\models\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\models\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\views\\home\\inputdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\views\\home\\inputdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\views\\home\\hello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\views\\home\\hello.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\webmvcr1\\webmvcr1\\models\\modelclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBA7066-4E88-4F28-B65B-436CA76FAB3F}|WebMVCR1\\WebMVCR1.csproj|solutionrelative:webmvcr1\\models\\modelclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputData.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "RelativeToolTip": "WebMVCR1\\Views\\Home\\InputData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T17:51:31.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebMVCR1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebMVCR1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:41:45.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Models\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "WebMVCR1\\Models\\PersonRepository.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Models\\PersonRepository.cs",
+              "RelativeToolTip": "WebMVCR1\\Models\\PersonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:56:55.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListPerson.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\ListPerson.cshtml",
+              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\ListPerson.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\ListPerson.cshtml",
+              "RelativeToolTip": "WebMVCR1\\Views\\Home\\ListPerson.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:00:22.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebMVCR1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T17:47:42.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hello.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\Hello.cshtml",
+              "RelativeDocumentMoniker": "WebMVCR1\\Views\\Home\\Hello.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Views\\Home\\Hello.cshtml",
+              "RelativeToolTip": "WebMVCR1\\Views\\Home\\Hello.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:22:02.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModelClass.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Models\\ModelClass.cs",
+              "RelativeDocumentMoniker": "WebMVCR1\\Models\\ModelClass.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\WebMVCR1\\WebMVCR1\\Models\\ModelClass.cs",
+              "RelativeToolTip": "WebMVCR1\\Models\\ModelClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:44:25.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
