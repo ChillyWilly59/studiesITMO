@@ -1,0 +1,16 @@
+﻿@page
+@model WebAppCoreProduct.Pages.ProductModel
+
+<h2>Продукт</h2>
+
+<form method="post">
+    <label for="name">Название товара</label><br />
+    <input type="text" name="name" /><br />
+    <label for="price">Цена</label><br />
+    <input type="number" name="price" /><br /><br />
+    <label for="discont">Введите свою скидку(%)</label><br />
+    <input type="number" name="discountPercentage" /><br /><br />
+    <input type="submit" value="Получить скидку" /><br />
+</form>
+
+<h3>@Model.MessageRezult</h3>

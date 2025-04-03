@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\webappcoreproduct\\webappcoreproduct\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|solutionrelative:webappcoreproduct\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\webappcoreproduct\\webappcoreproduct\\pages\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|solutionrelative:webappcoreproduct\\pages\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\webappcoreproduct\\webappcoreproduct\\pages\\product.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|solutionrelative:webappcoreproduct\\pages\\product.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\webappcoreproduct\\webappcoreproduct\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|solutionrelative:webappcoreproduct\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\webappcoreproduct\\webappcoreproduct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848C7AB2-FB68-4882-997C-B134DFBDF446}|WebAppCoreProduct\\WebAppCoreProduct.csproj|solutionrelative:webappcoreproduct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppCoreProduct\\Program.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Program.cs",
+              "RelativeToolTip": "WebAppCoreProduct\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:13:12.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cshtml.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Product.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppCoreProduct\\Pages\\Product.cshtml.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Product.cshtml.cs",
+              "RelativeToolTip": "WebAppCoreProduct\\Pages\\Product.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:09:27.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Product.cshtml",
+              "RelativeDocumentMoniker": "WebAppCoreProduct\\Pages\\Product.cshtml",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Product.cshtml",
+              "RelativeToolTip": "WebAppCoreProduct\\Pages\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T16:09:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppCoreProduct\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebAppCoreProduct\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T16:24:54.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "WebAppCoreProduct\\Services\\DiscountService.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WebAppCoreProduct\\WebAppCoreProduct\\Services\\DiscountService.cs",
+              "RelativeToolTip": "WebAppCoreProduct\\Services\\DiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:14:14.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

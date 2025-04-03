@@ -1,0 +1,30 @@
+﻿@page
+@model WebAppCoreProduct.Pages.IndexModel
+
+@{
+    Layout = "_Layout"; 
+}
+
+<h2>Главная страница</h2>
+
+<form method="post">
+    <label for="name">Название товара</label><br />
+    <input type="text" name="name" /><br />
+
+    <label for="price">Цена</label><br />
+    <input type="number" name="price" /><br /><br />
+
+    <label for="discountPercentage">Процент скидки</label><br />
+    <input type="number" name="discountPercentage" /><br /><br />
+
+    <input type="submit" value="Получить скидку" /><br />
+</form>
+
+<h3>@Model.MessageRezult</h3>
+
+@if (Model.Product != null)
+{
+    <h3>Информация о товаре</h3>
+    <p>Название: <b>@Model.Product.Name</b></p>
+    <p>Цена: <b>@Model.Product.Price</b></p>
+}
