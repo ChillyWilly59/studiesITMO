@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\ProgectC#\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvccreditapp\\mvccreditapp\\controllers\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|solutionrelative:mvccreditapp\\controllers\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvccreditapp\\mvccreditapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|solutionrelative:mvccreditapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvccreditapp\\mvccreditapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|solutionrelative:mvccreditapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\mvccreditapp\\mvccreditapp\\views\\home\\bidsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59869693-2D18-49D9-9E77-975A483A9F33}|MvcCreditApp\\MvcCreditApp.csproj|solutionrelative:mvccreditapp\\views\\home\\bidsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,23 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreditsController.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Controllers\\CreditsController.cs",
+              "RelativeDocumentMoniker": "MvcCreditApp\\Controllers\\CreditsController.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Controllers\\CreditsController.cs",
+              "RelativeToolTip": "MvcCreditApp\\Controllers\\CreditsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:26:45.56Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BidSearch.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Views\\Home\\BidSearch.cshtml",
+              "RelativeDocumentMoniker": "MvcCreditApp\\Views\\Home\\BidSearch.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Views\\Home\\BidSearch.cshtml",
+              "RelativeToolTip": "MvcCreditApp\\Views\\Home\\BidSearch.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T17:20:11.748Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcCreditApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MvcCreditApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T17:18:07.817Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcCreditApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\MvcCreditApp\\MvcCreditApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcCreditApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwCoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:16:39.094Z",
+              "EditorCaption": ""
             }
           ]
         }
