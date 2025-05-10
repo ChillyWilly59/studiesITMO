@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\migrations\\20250510100639_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\migrations\\20250510100639_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|d:\\git\\studiesitmo\\asp.net\\mvc\\stuedntsmvc\\stydents_mvc\\stydents_mvc\\stydents_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B9F994C-22C4-4A41-9958-1FE7D08A0C16}|Stydents_MVC\\Stydents_MVC.csproj|solutionrelative:stydents_mvc\\stydents_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Models\\Student.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Models\\Student.cs",
+              "RelativeToolTip": "Stydents_MVC\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:15:44.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Stydents_MVC",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Stydents_MVC.csproj",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Stydents_MVC.csproj",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Stydents_MVC.csproj",
+              "RelativeToolTip": "Stydents_MVC\\Stydents_MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T09:46:35.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Stydents_MVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:58:50.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Stydents_MVC\\appsettings.json",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\appsettings.json",
+              "RelativeToolTip": "Stydents_MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:56:28.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Program.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Program.cs",
+              "RelativeToolTip": "Stydents_MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:55:34.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Stydents_MVC\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:41:39.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbContextFactory.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\DbContextFactory.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\DbContextFactory.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\DbContextFactory.cs",
+              "RelativeToolTip": "Stydents_MVC\\DbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:05:45.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250510100639_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Migrations\\20250510100639_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Stydents_MVC\\Migrations\\20250510100639_InitialCreate.cs",
+              "ToolTip": "D:\\Git\\studiesITMO\\ASP.NET\\MVC\\StuedntsMVC\\Stydents_MVC\\Stydents_MVC\\Migrations\\20250510100639_InitialCreate.cs",
+              "RelativeToolTip": "Stydents_MVC\\Migrations\\20250510100639_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:06:40.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

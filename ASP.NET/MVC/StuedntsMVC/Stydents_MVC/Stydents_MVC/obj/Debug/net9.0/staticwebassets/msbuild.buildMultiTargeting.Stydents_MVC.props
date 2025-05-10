@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Stydents_MVC.props" />
+</Project>
