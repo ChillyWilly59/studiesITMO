@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void second() {
-        double result1 = ((46 + 10) * (10 / 3));
+        double result1 = (46 + 10) * ((double) 10 / 3);
         int result2 = (29) * (4) * (-15);
 
         System.out.printf("(46+10)*(10/3) = %s\n" +
@@ -27,7 +27,7 @@ public class Main {
 
     public static void third() {
         int number = 10500;
-        double result = (number / 10) / 10;
+        double result = ((double) (number / 10) / 10);
 
         System.out.println(result);
     }
@@ -55,11 +55,11 @@ public class Main {
 
         int b = scanner.nextInt();
 
-        if (b % 2 != 0) {
-            System.out.println("нечетное");
+        if (b > 100) {
+            System.out.println("выход за пределы диапозона");
         } else {
-            if (b > 100) {
-                System.out.println("выход за пределы диапозона");
+            if (b % 2 != 0) {
+                System.out.println("нечетное");
             } else {
                 System.out.println("четное");
             }
