@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void second() {
-        int result1 = ((46 + 10) * (10 / 3));
+        double result1 = ((46 + 10) * (10 / 3));
         int result2 = (29) * (4) * (-15);
 
         System.out.printf("(46+10)*(10/3) = %s\n" +
@@ -27,7 +27,7 @@ public class Main {
 
     public static void third() {
         int number = 10500;
-        int result = (number / 10) / 10;
+        double result = (number / 10) / 10;
 
         System.out.println(result);
     }
