@@ -46,11 +46,11 @@ public class Main
     }
     public static void fifth()
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
 
-        int num_1 = scanner.nextInt();
-        int num_2 = scanner.nextInt();
-        int num_3 = scanner.nextInt();
+        int num_1 = a.nextInt();
+        int num_2 = a.nextInt();
+        int num_3 = a.nextInt();
 
         System.out.printf("%s\n%s\n%s%n",num_1,num_2,num_3);
     }
