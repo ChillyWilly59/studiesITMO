@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("1. Самое длинное слово: " + findLongestWord("Это тестовый текст для проверки"));
         System.out.println("2. Является ли 'казак' палиндромом: " + isPalindrome("казак"));
-        System.out.println("3. Цензура: " + censorBaka("Не говори бяка! Бяка это плохо."));
+        System.out.println("3. Цензура: " + censorBaka("Не говори бяка! Бяка это плохо.", "бяка", "[вырезано цензурой]"));
         System.out.println("4. Количество вхождений 'aba' в 'ababababa': " +
                 countSubstringOccurrences("ababababa", "aba"));
         System.out.println("5. Инвертированные слова:");
@@ -38,8 +38,8 @@ public class Main {
     }
 
 
-    public static String censorBaka(String text) {
-        return text.replaceAll("бяка", "[вырезано цензурой]");
+    public static String censorBaka(String text, String wordToCensor, String replacement) {
+        return text.replaceAll(wordToCensor, replacement);
     }
 
     public static int countSubstringOccurrences(String text, String substring) {
