@@ -6,7 +6,8 @@ public class Main {
 
         System.out.println("1. Самое длинное слово: " + findLongestWord("Это тестовый текст для проверки"));
         System.out.println("2. Является ли 'казак' палиндромом: " + isPalindrome("казак"));
-        System.out.println("3. Цензура: " + censorBaka("Не говори бяка! Бяка это плохо.", "бяка", "[вырезано цензурой]"));
+        System.out.println("3. Цензура: " + censorBaka("Не говори бяка! Бяка это плохо.", "бяка",
+                "[вырезано цензурой]"));
         System.out.println("4. Количество вхождений 'aba' в 'ababababa': " +
                 countSubstringOccurrences("ababababa", "aba"));
         System.out.println("5. Инвертированные слова:");
