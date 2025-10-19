@@ -1,0 +1,1 @@
+CMakeLists.txt not found in D:\Git\studiesITMO\Cpp\exercise\exercise_2 Select CMakeLists.txt
