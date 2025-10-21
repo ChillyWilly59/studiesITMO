@@ -53,7 +53,7 @@ public class Book {
         this.pages = pages;
     }
 
-    public toString() {
+    public String toString() {
         return "Книга: " + title + "\n" +
                 "Автор: " + author + "\n" +
                 "Год издания: " + year + "\n" +
