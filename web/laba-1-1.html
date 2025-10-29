@@ -1,0 +1,44 @@
+<body>
+<meta charset="UTF-8">
+<div class="container">
+    <header>
+        <h1>Лабораторная работа 1</h1>
+    </header>
+
+    <div class="content">
+
+        <div class="task">
+            <h2>Объединение строк</h2>
+            <div class="result">
+                <p><strong>Результат:</strong> <span id="stringResult"></span></p>
+                <button class="btn" onclick="showStringAlert()">Показать в alert()</button>
+            </div>
+        </div>
+
+        <div class="task">
+            <h2>Умножение переменных</h2>
+            <div class="result">
+                <p><strong>Результат:</strong> <span id="numberResult"></span></p>
+                <button class="btn" onclick="showNumberAlert()">Показать в alert()</button>
+            </div>
+            <script>
+                var string1 = "Привет, ";
+                var string2 = "мир!";
+                var stringResult = string1 + string2;
+
+                var num1 = 3.14;
+                var num2 = 0xFF;
+                var numberResult = num1 * num2;
+
+                function showStringAlert() {
+                    alert("Результат объединения строк: " + stringResult);
+                }
+
+                function showNumberAlert() {
+                    alert("Результат умножения: " + numberResult);
+                }
+            </script>
+        </div>
+    </div>
+</div>
+</body>
