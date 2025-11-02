@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планирование поездки - Путешествия по России</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: var(--dark-color);
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        
+        header, footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--secondary-color);
+        }
+        
+        main {
+            flex: 1;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: auto;
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+        
+        .form-section {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: var(--dark-color);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+        }
+        
+        .btn-block {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .range-value {
+            display: inline-block;
+            margin-left: 10px;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+        
+        .color-preview {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-left: 10px;
+            vertical-align: middle;
+            border: 2px solid #ddd;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .form-row .form-group {
+            flex: 1;
+        }
+        
+        .progress-container {
+            margin: 20px 0;
+        }
+        
+        progress {
+            width: 100%;
+            height: 20px;
+            border-radius: 10px;
+        }
+        
+        progress::-webkit-progress-bar {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+        
+        progress::-webkit-progress-value {
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+        }
+        
+        progress::-moz-progress-bar {
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+        }
+        
+        .summary {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-radius: var(--border-radius);
+            margin-top: 20px;
+        }
+        
+        .summary h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+        
+        /* Стили для новых элементов HTML5 */
+        input[type="date"] {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>') no-repeat right 10px center;
+            background-color: white;
+            padding-right: 40px;
+        }
+        
+        input[type="range"] {
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            background: var(--secondary-color);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        input[type="color"] {
+            height: 50px;
+            padding: 5px;
+            cursor: pointer;
+        }
+        
+        input[type="email"]:invalid {
+            border-color: var(--accent-color);
+        }
+        
+        input[type="email"]:valid {
+            border-color: #2ecc71;
+        }
+        
+        .required::after {
+            content: " *";
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Элементы формы
+        const budgetSlider = document.getElementById('budget');
+        const budgetValue = document.getElementById('budgetValue');
+        const colorPicker = document.getElementById('color');
+        const colorPreview = document.getElementById('colorPreview');
+        const formProgress = document.getElementById('formProgress');
+        const progressValue = document.getElementById('progressValue');
+        const travelForm = document.getElementById('travelForm');
+        const formSummary = document.getElementById('formSummary');
+        const summaryContent = document.getElementById('summaryContent');
+
+        // Обновление значения бюджета при перемещении ползунка
+        budgetSlider.addEventListener('input', function() {
+            const value = parseInt(this.value).toLocaleString('ru-RU');
+            budgetValue.textContent = value + ' руб.';
+            updateFormProgress();
+        });
+
+        // Обновление предпросмотра цвета
+        colorPicker.addEventListener('input', function() {
+            colorPreview.style.backgroundColor = this.value;
+            updateFormProgress();
+        });
+
+        // Инициализация предпросмотра цвета
+        colorPreview.style.backgroundColor = colorPicker.value;
+
+        // Обновление прогресса заполнения формы
+        function updateFormProgress() {
+            const form = document.getElementById('travelForm');
+            const inputs = form.querySelectorAll('input, select, textarea');
+            let filledCount = 0;
+
+            inputs.forEach(input => {
+                if (input.type === 'range' || input.type === 'color') {
+                    // Для этих типов всегда считаем заполненными
+                    filledCount++;
+                } else if (input.value.trim() !== '' && !input.disabled) {
+                    filledCount++;
+                }
+            });
+
+            const progress = Math.round((filledCount / inputs.length) * 100);
+            formProgress.value = progress;
+            progressValue.textContent = progress + '%';
+        }
+
+        // Обновление прогресса при изменении любых полей формы
+        const formInputs = document.querySelectorAll('#travelForm input, #travelForm select, #travelForm textarea');
+        formInputs.forEach(input => {
+            input.addEventListener('input', updateFormProgress);
+            input.addEventListener('change', updateFormProgress);
+        });
+
+        // Инициализация прогресса при загрузке
+        updateFormProgress();
+
+        // Обработка отправки формы
+        travelForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Собираем данные формы
+            const formData = {
+                destination: document.getElementById('destination').value,
+                startDate: document.getElementById('startDate').value,
+                endDate: document.getElementById('endDate').value,
+                travelers: document.getElementById('travelers').value,
+                budget: budgetSlider.value,
+                accommodation: document.getElementById('accommodation').value,
+                transport: document.getElementById('transport').value,
+                email: document.getElementById('email').value,
+                color: colorPicker.value,
+                notes: document.getElementById('notes').value
+            };
+
+            // Сохраняем в localStorage
+            localStorage.setItem('travelPlan', JSON.stringify(formData));
+
+            // Показываем сводку
+            showSummary(formData);
+
+            // Показываем уведомление
+            alert('План поездки успешно сохранен!');
+        });
+
+        // Загрузка сохраненного плана, если есть
+        const savedPlan = localStorage.getItem('travelPlan');
+        if (savedPlan) {
+            const planData = JSON.parse(savedPlan);
+
+            // Заполняем форму сохраненными данными
+            document.getElementById('destination').value = planData.destination || '';
+            document.getElementById('startDate').value = planData.startDate || '';
+            document.getElementById('endDate').value = planData.endDate || '';
+            document.getElementById('travelers').value = planData.travelers || '1';
+            budgetSlider.value = planData.budget || '50000';
+            budgetValue.textContent = parseInt(planData.budget || '50000').toLocaleString('ru-RU') + ' руб.';
+            document.getElementById('accommodation').value = planData.accommodation || '';
+            document.getElementById('transport').value = planData.transport || '';
+            document.getElementById('email').value = planData.email || '';
+            colorPicker.value = planData.color || '#3498db';
+            colorPreview.style.backgroundColor = colorPicker.value;
+            document.getElementById('notes').value = planData.notes || '';
+
+            // Обновляем прогресс
+            updateFormProgress();
+
+            // Показываем сводку
+            showSummary(planData);
+        }
+
+        // Функция показа сводки
+        function showSummary(data) {
+            let summaryHTML = '';
+
+            if (data.destination) {
+                summaryHTML += `<p><strong>Направление:</strong> ${data.destination}</p>`;
+            }
+
+            if (data.startDate && data.endDate) {
+                const start = new Date(data.startDate).toLocaleDateString('ru-RU');
+                const end = new Date(data.endDate).toLocaleDateString('ru-RU');
+                summaryHTML += `<p><strong>Даты поездки:</strong> ${start} - ${end}</p>`;
+            }
+
+            if (data.travelers) {
+                summaryHTML += `<p><strong>Количество путешественников:</strong> ${data.travelers}</p>`;
+            }
+
+            if (data.budget) {
+                summaryHTML += `<p><strong>Бюджет:</strong> ${parseInt(data.budget).toLocaleString('ru-RU')} руб.</p>`;
+            }
+
+            if (data.accommodation) {
+                const accommodationTypes = {
+                    'hotel': 'Отель',
+                    'hostel': 'Хостел',
+                    'apartment': 'Апартаменты',
+                    'camping': 'Кемпинг',
+                    'guesthouse': 'Гостевой дом'
+                };
+                summaryHTML += `<p><strong>Тип размещения:</strong> ${accommodationTypes[data.accommodation] || data.accommodation}</p>`;
+            }
+
+            if (data.transport) {
+                const transportTypes = {
+                    'plane': 'Самолет',
+                    'train': 'Поезд',
+                    'car': 'Автомобиль',
+                    'bus': 'Автобус'
+                };
+                summaryHTML += `<p><strong>Основной транспорт:</strong> ${transportTypes[data.transport] || data.transport}</p>`;
+            }
+
+            if (data.email) {
+                summaryHTML += `<p><strong>Email для уведомлений:</strong> ${data.email}</p>`;
+            }
+
+            if (data.notes) {
+                summaryHTML += `<p><strong>Дополнительные пожелания:</strong> ${data.notes}</p>`;
+            }
+
+            summaryContent.innerHTML = summaryHTML;
+            formSummary.style.display = 'block';
+        }
+    });
+</script>
+    <header>
+        <h1>Путешествия по России</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="destinations.html">Направления</a></li>
+                <li><a href="plan.html">Планирование</a></li>
+                <li><a href="map.html">Интерактивная карта</a></li>
+                <li><a href="settings.html">Настройки</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Планирование вашего путешествия</h1>
+        
+        <form id="travelForm">
+            <section class="form-section">
+                <h2>Основная информация</h2>
+                
+                <div class="form-group">
+                    <label for="destination" class="required">Направление</label>
+                    <input type="text" id="destination" list="destinations" required placeholder="Выберите или введите направление">
+                    <datalist id="destinations">
+                        <option value="Озеро Байкал">
+                        <option value="Камчатка">
+                        <option value="Золотое Кольцо">
+                        <option value="Кавказ">
+                        <option value="Алтай">
+                        <option value="Калининград">
+                        <option value="Крым">
+                        <option value="Сочи">
+                    </datalist>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="startDate" class="required">Дата начала</label>
+                        <input type="date" id="startDate" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="endDate" class="required">Дата окончания</label>
+                        <input type="date" id="endDate" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="travelers" class="required">Количество путешественников</label>
+                    <input type="number" id="travelers" min="1" max="20" value="1" required>
+                </div>
+            </section>
+            
+            <section class="form-section">
+                <h2>Бюджет и предпочтения</h2>
+                
+                <div class="form-group">
+                    <label for="budget">Бюджет на поездку (руб.)</label>
+                    <div class="form-row">
+                        <input type="range" id="budget" min="10000" max="200000" step="5000" value="50000">
+                        <span class="range-value" id="budgetValue">50 000 руб.</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="accommodation">Тип размещения</label>
+                    <select id="accommodation">
+                        <option value="">Выберите тип размещения</option>
+                        <option value="hotel">Отель</option>
+                        <option value="hostel">Хостел</option>
+                        <option value="apartment">Апартаменты</option>
+                        <option value="camping">Кемпинг</option>
+                        <option value="guesthouse">Гостевой дом</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transport">Основной транспорт</label>
+                    <select id="transport">
+                        <option value="">Выберите транспорт</option>
+                        <option value="plane">Самолет</option>
+                        <option value="train">Поезд</option>
+                        <option value="car">Автомобиль</option>
+                        <option value="bus">Автобус</option>
+                    </select>
+                </div>
+            </section>
+            
+            <section class="form-section">
+                <h2>Дополнительная информация</h2>
+                
+                <div class="form-group">
+                    <label for="email" class="required">Email для уведомлений</label>
+                    <input type="email" id="email" required placeholder="your@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="color">Цвет для заметок о поездке</label>
+                    <div class="form-row">
+                        <input type="color" id="color" value="#3498db">
+                        <div class="color-preview" id="colorPreview"></div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="notes">Дополнительные пожелания</label>
+                    <textarea id="notes" rows="4" placeholder="Особые требования, интересы, предпочтения..."></textarea>
+                </div>
+            </section>
+            
+            <div class="progress-container">
+                <label>Прогресс заполнения формы:</label>
+                <progress id="formProgress" value="0" max="100">0%</progress>
+                <span id="progressValue">0%</span>
+            </div>
+            
+            <button type="submit" class="btn btn-block">Сохранить план поездки</button>
+        </form>
+        
+        <div class="summary" id="formSummary" style="display: none;">
+            <h3>Сводка вашей поездки</h3>
+            <div id="summaryContent"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Путешествия по России. Все права защищены.</p>
+    </footer>
+    
+
+</body>
+</html>

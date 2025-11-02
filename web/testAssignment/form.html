@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Форма обратной связи (HTML5 элементы)</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="planets.html">Планеты</a></li>
+            <li><a href="form.html">Форма</a></li>
+            <li><a href="about.html">О нас (Геолокация)</a></li>
+            <li><a href="media.html">Медиа</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Оставьте свое сообщение</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="user_email">Ваш Email (тип email):</label>
+                <input type="email" id="user_email" name="user_email" required>
+            </p>
+            <p>
+                <label for="visit_date">Дата посещения (тип date):</label>
+                <input type="date" id="visit_date" name="visit_date" min="2025-01-01" max="2025-12-31" required>
+            </p>
+            <p>
+                <label for="fav_color">Ваш любимый цвет космоса (тип color):</label>
+                <input type="color" id="fav_color" name="fav_color" value="#1a3459">
+            </p>
+            <p>
+                <label for="rating">Оценка сайта (от 0 до 10) (тип range):</label>
+                <input type="range" id="rating" name="rating" min="0" max="10" step="1" value="8" oninput="ratingValue.value=this.value">
+                <output name="ratingValue" id="ratingValue">8</output>
+            </p>
+            <p>
+                <label for="planet_count">Сколько планет вы знаете? (тип number):</label>
+                <input type="number" id="planet_count" name="planet_count" min="1" max="100" value="8" required>
+            </p>
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+        <aside>
+            <p>Примечание: Использованы 5 различных новых элементов управления Web-форм HTML5.</p>
+        </aside>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Партнер программиста.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - Геолокация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>О нас (Ваше местоположение)</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="planets.html">Планеты</a></li>
+            <li><a href="form.html">Форма</a></li>
+            <li><a href="about.html">О нас (Геолокация)</a></li>
+            <li><a href="media.html">Медиа</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Геолокация API (Пункт 1.7)</h2>
+        <p>Нажмите кнопку, чтобы определить ваше приблизительное местоположение на Земле. Браузер запросит ваше разрешение.</p>
+        <button id="getLocationBtn">Определить мое местоположение</button>
+        <p id="locationOutput">Ожидание данных...</p>
+        <div id="mapContainer">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Партнер программиста.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
