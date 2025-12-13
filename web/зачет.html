@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по России - Главная</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: var(--dark-color);
+            background-color: #f9f9f9;
+        }
+
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @media (max-width: 768px) {
+            .destinations-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+        }
+
+        header, footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .storage-demo {
+            background-color: white;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            margin: 20px 0;
+        }
+
+        .canvas-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        canvas {
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            background-color: white;
+            box-shadow: var(--box-shadow);
+        }
+    </style>
+</head>
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const userNameInput = document.getElementById('userName');
+        const saveNameBtn = document.getElementById('saveName');
+        const clearNameBtn = document.getElementById('clearName');
+        const displayName = document.getElementById('displayName');
+
+        const savedName = localStorage.getItem('userName');
+        if (savedName) {
+            displayName.textContent = `Привет, ${savedName}! Рады снова видеть вас на нашем сайте.`;
+        }
+
+        saveNameBtn.addEventListener('click', function() {
+            const name = userNameInput.value.trim();
+            if (name) {
+                localStorage.setItem('userName', name);
+                displayName.textContent = `Привет, ${name}! Рады видеть вас на нашем сайте.`;
+                userNameInput.value = '';
+            }
+        });
+
+        clearNameBtn.addEventListener('click', function() {
+            localStorage.removeItem('userName');
+            displayName.textContent = 'Имя удалено из хранилища.';
+        });
+    });
+
+    window.onload = function() {
+        const canvas = document.getElementById('travelChart');
+        const ctx = canvas.getContext('2d');
+
+        // Данные для круговой диаграммы
+        const data = [
+            { label: 'Байкал', value: 35, color: '#3498db' },
+            { label: 'Камчатка', value: 25, color: '#e74c3c' },
+            { label: 'Золотое Кольцо', value: 20, color: '#2ecc71' },
+            { label: 'Кавказ', value: 15, color: '#f39c12' },
+            { label: 'Алтай', value: 5, color: '#9b59b6' }
+        ];
+
+        const total = data.reduce((sum, item) => sum + item.value, 0);
+
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = Math.min(centerX, centerY) - 20;
+
+        let startAngle = 0;
+
+        data.forEach(item => {
+            const sliceAngle = (2 * Math.PI * item.value) / total;
+
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.arc(centerX, centerY, radius, startAngle, startAngle + sliceAngle);
+            ctx.closePath();
+
+            ctx.fillStyle = item.color;
+            ctx.fill();
+
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = 'white';
+            ctx.stroke();
+
+            startAngle += sliceAngle;
+        });
+
+        let legendY = 30;
+        data.forEach(item => {
+            ctx.fillStyle = item.color;
+            ctx.fillRect(20, legendY, 20, 20);
+
+            ctx.fillStyle = 'black';
+            ctx.font = '14px Arial';
+            ctx.fillText(`${item.label}: ${item.value}%`, 50, legendY + 15);
+
+            legendY += 25;
+        });
+
+        ctx.fillStyle = 'black';
+        ctx.font = 'bold 16px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('Популярность направлений среди туристов', centerX, 20);
+
+        canvas.addEventListener('mousemove', function(event) {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            const dx = mouseX - centerX;
+            const dy = mouseY - centerY;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance <= radius) {
+                let angle = Math.atan2(dy, dx);
+                if (angle < 0) angle += 2 * Math.PI;
+
+                let cumulativeAngle = 0;
+                for (const item of data) {
+                    const sliceAngle = (2 * Math.PI * item.value) / total;
+                    if (angle >= cumulativeAngle && angle < cumulativeAngle + sliceAngle) {
+                        canvas.title = `${item.label}: ${item.value}%`;
+                        break;
+                    }
+                    cumulativeAngle += sliceAngle;
+                }
+            } else {
+                canvas.title = 'Популярность направлений среди туристов';
+            }
+        });
+    };
+</script>
+<header>
+    <h1>Путешествия по России</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="destinations.html">Направления</a></li>
+            <li><a href="plan.html">Планирование</a></li>
+            <li><a href="map.html">Интерактивная карта</a></li>
+            <li><a href="settings.html">Настройки</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero fade-in">
+        <h2>Откройте для себя красоты России</h2>
+        <p>От Балтики до Дальнего Востока - незабываемые путешествия ждут вас</p>
+        <a href="destinations.html" class="btn">Исследовать направления</a>
+    </section>
+
+    <section>
+        <h2>Популярные направления</h2>
+        <div class="destinations-grid">
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200?text=Озеро+Байкал" alt="Озеро Байкал">
+                <div class="card-content">
+                    <h3>Озеро Байкал</h3>
+                    <p>Самое глубокое озеро в мире с кристально чистой водой.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200?text=Камчатка" alt="Камчатка">
+                <div class="card-content">
+                    <h3>Камчатка</h3>
+                    <p>Земля вулканов, гейзеров и дикой природы.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200?text=Золотое+Кольцо" alt="Золотое Кольцо">
+                <div class="card-content">
+                    <h3>Золотое Кольцо</h3>
+                    <p>Древние города с богатой историей и архитектурой.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="storage-demo">
+        <h2>Демонстрация WebStorage</h2>
+        <p>Введите ваше имя, и оно будет сохранено в локальном хранилище:</p>
+        <input type="text" id="userName" placeholder="Ваше имя">
+        <button id="saveName">Сохранить имя</button>
+        <button id="clearName">Очистить</button>
+        <p id="displayName"></p>
+    </section>
+
+    <section class="canvas-container">
+        <h2>Интерактивная карта популярности направлений</h2>
+        <canvas id="travelChart" width="600" height="400"></canvas>
+        <p>Наведите курсор на секторы диаграммы для просмотра деталей</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Путешествия по России. Все права защищены.</p>
+</footer>
+
+
+</body>
+</html>
