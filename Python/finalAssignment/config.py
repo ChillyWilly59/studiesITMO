@@ -1,9 +1,10 @@
 DB_CONFIG = {
-    "host": "localhost",
+    "dbname": "neondb",
+    "user": "neondb_owner",
+    "password": "npg_ZrJPh5GjEod4",
+    "host": "ep-raspy-bonus-abxvcogx-pooler.eu-west-2.aws.neon.tech",
     "port": "5432",
-    "database": "airports",
-    "user": "postgres",
-    "password": "postgres"
+    "sslmode": "require"
 }
 
 AIRPORTS_DATA_FILE = "airports.dat"
